@@ -32,15 +32,13 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  * Make sure the token you want to list has a corresponding pool on https://explorer.gamba.so/pools
  * For private pools, add the creator of the Liquidity Pool as a second argument
  */
-export const POOLS = [
-  // Fake token:
-  lp(FAKE_TOKEN_MINT),
+export const POOLS =
+  [
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Wormhole:
-  lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  ,
 ]
 
 // The default token to be selected
