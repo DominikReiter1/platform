@@ -71,15 +71,16 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
 
 /** HTML to display to user that they need to accept in order to continue */
 export const TOS_HTML = `
-  <p><b>1. Age Requirement:</b> Must be at least 18 years old.</p>
-  <p><b>2. Legal Compliance:</b> Follow local laws responsibly.</p>
-  <p><b>3. Risk Acknowledgement:</b> Games involve risk; no guaranteed winnings.</p>
+  <p><b>1. Age Requirement:</b> Note you must 18 Years old to play on Stormbit.</p>
+  <p><b>2. Legal Compliance:</b> Follow local laws responsibly.(As example: Gambling Allowed in your Counrty)</p>
+  <p><b>3. Fees:</b> Games are fair and have a RTP of 100%, note you pay 2.5% Fees per bet to us and 0.1% in the Jackpot Pool.</p>
   <p><b>4. No Warranty:</b> Games provided "as is"; operate randomly.</p>
   <p><b>5. Limitation of Liability:</b> We're not liable for damages.</p>
-  <p><b>6. Licensing Disclaimer:</b> Not a licensed casino; for simulation only.</p>
+  <p><b>6. Licensing Disclaimer:</b> We are a decrental Plattform, where is no Gambling License Required.</p>
   <p><b>7. Fair Play:</b> Games are conducted fairly and transparently.</p>
-  <p><b>8. Data Privacy:</b> Your privacy is important to us.</p>
+  <p><b>8. Data Privacy:</b> Your privacy is important to us, we dont save Data about you.</p>
   <p><b>9. Responsible Gaming:</b> Play responsibly; seek help if needed.</p>
+  <p><b>10. KYC:</b> As decental Plattform no KYC is required.</p>
 `
 
 /**
